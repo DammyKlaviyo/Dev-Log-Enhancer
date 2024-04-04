@@ -105,7 +105,7 @@ function applyPrevNextButtons() {
       prevRowBtn.textContent = "Prev Call";
       detailsBlock.lastElementChild.appendChild(prevRowBtn)
       prevRowBtn.addEventListener('click', function() {
-        document.querySelector('#ascent-portal-container button[title="Close"]').click()
+        document.querySelector('.DrawerPanelHeader-main button[title="Close"]').click()
         previousRow.querySelector('button').click();
       })
     }
@@ -118,7 +118,7 @@ function applyPrevNextButtons() {
       nextRowBtn.textContent = "Next Call";
       detailsBlock.lastElementChild.appendChild(nextRowBtn)
       nextRowBtn.addEventListener('click', function() {
-        document.querySelector('#ascent-portal-container button[title="Close"]').click()
+        document.querySelector('.DrawerPanelHeader-main button[title="Close"]').click()
         nextRow.querySelector('button').click();
       })
     }
